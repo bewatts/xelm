@@ -3,17 +3,16 @@
   "language": "Elm",
   "repository": "https://github.com/exercism/xelm",
   "active": false,
-  "test_pattern": "TODO",
+  "test_pattern": "Test",
   "problems": [
-
-  ],
-  "deprecated": [
-
+    "Leap"
   ],
   "ignored": [
+    "elm-stuff",
     "bin"
   ],
+  "deprecated": [
+  ],
   "foregone": [
-
   ]
 }

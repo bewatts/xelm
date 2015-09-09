@@ -1,10 +1,10 @@
 {
     "version": "1.0.0",
     "summary": "Exercism problems in elm",
-    "repository": "https://github.com/exercism/xelm",
+    "repository": "https://github.com/exercism/xelm.git",
     "license": "MIT",
     "source-directories": [
-        "."
+        "Leap"
     ],
     "exposed-modules": [],
     "dependencies": {
