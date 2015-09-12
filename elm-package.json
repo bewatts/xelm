@@ -4,7 +4,8 @@
     "repository": "https://github.com/exercism/xelm.git",
     "license": "MIT",
     "source-directories": [
-        "Leap"
+        "Leap",
+        "Accumulate"
     ],
     "exposed-modules": [],
     "dependencies": {
