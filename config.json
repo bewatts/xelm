@@ -6,7 +6,8 @@
   "test_pattern": "Test",
   "problems": [
     "Leap",
-    "Accumulate"
+    "Accumulate",
+    "RNATranscription"
   ],
   "ignored": [
     "elm-stuff",
