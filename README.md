@@ -17,6 +17,8 @@ Exercism problems in Elm.
 
 Please see the [contributing guide](https://github.com/exercism/x-api/blob/master/CONTRIBUTING.md)
 
+When adding another problem set, make sure to add the folder name to both `elm-package.json` and `config.json`.
+
 ## License
 
 The MIT License (MIT)
