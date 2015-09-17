@@ -1,4 +1,4 @@
-module LeapExample where
+module Leap where
 
 isLeap : Int -> Bool
 isLeap year =
