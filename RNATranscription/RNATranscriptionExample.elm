@@ -1,4 +1,4 @@
-module RNATranscription where
+module RNATranscriptionExample where
 import String
 
 toRNA : String -> String

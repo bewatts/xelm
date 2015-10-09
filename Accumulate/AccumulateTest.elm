@@ -2,7 +2,7 @@ module AccumulateTest where
 
 -- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
 
-import Accumulate exposing (accumulate)
+import AccumulateExample exposing (accumulate)
 
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
