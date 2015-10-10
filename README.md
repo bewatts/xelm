@@ -20,76 +20,7 @@ Please see the [contributing guide](https://github.com/exercism/x-api/blob/maste
 When adding another problem set, make sure to add the folder name to both `elm-package.json` and `config.json`.
 
 ### TODO
-- [x] leap
-- [x] accumulate
-- [x] rna-transcription
-- [ ] sublist
-- [ ] grains
-- [ ] gigasecond
-- [ ] bob
-- [ ] sum-of-multiples
-- [ ] strain
-- [ ] point-mutations
-- [ ] space-age
-- [ ] anagram
-- [ ] nucleotide-count
-- [ ] phone-number
-- [ ] grade-school
-- [ ] simple-linked-list
-- [ ] list-ops
-- [ ] word-count
-- [ ] etl
-- [ ] robot-name
-- [ ] meetup
-- [ ] beer-song
-- [ ] triangle
-- [ ] scrabble-score
-- [ ] roman-numerals
-- [ ] binary
-- [ ] prime-factors
-- [ ] raindrops
-- [ ] allergies
-- [ ] atbash-cipher
-- [ ] bank-account
-- [ ] crypto-square
-- [ ] kindergarten-garden
-- [ ] robot-simulator
-- [ ] queen-attack
-- [ ] binary-search-tree
-- [ ] difference-of-squares
-- [ ] hexadecimal
-- [ ] largest-series-product
-- [ ] luhn
-- [ ] clock
-- [ ] matrix
-- [ ] house
-- [ ] minesweeper
-- [ ] ocr-numbers
-- [ ] octal
-- [ ] trinary
-- [ ] wordy
-- [ ] food-chain
-- [ ] linked-list
-- [ ] custom-set
-- [ ] nth-prime
-- [ ] palindrome-products
-- [ ] pascals-triangle
-- [ ] pig-latin
-- [ ] pythagorean-triplet
-- [ ] saddle-points
-- [ ] say
-- [ ] secret-handshake
-- [ ] series
-- [ ] sieve
-- [ ] simple-cipher
-- [ ] connect
-- [ ] parallel-letter-frequency
-- [ ] sgf-parsing
-- [ ] go-counting
-- [ ] zipper
-- [ ] forth
-- [ ] lens-person
-   "pov"
+- [ ] Put expected vs. actual results in correct order in Accumulate, Leap, and RNA tests
 
 ## License
 
