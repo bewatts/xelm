@@ -6,7 +6,8 @@
     "source-directories": [
         "Leap",
         "Accumulate",
-        "RNATranscription"
+        "RNATranscription",
+        "Sublist"
     ],
     "exposed-modules": [],
     "dependencies": {
