@@ -14,10 +14,10 @@ square x = x * x
 
 tests : Test
 tests = suite "Accumulate"
-        [ test "[]] Accumulate" (assertEqual (accumulate square []) []),
-          test "square Accumulate" (assertEqual (accumulate square [1,2,3]) [1,4,9]),
-          test "toUpper Accumulate" (assertEqual (accumulate String.toUpper ["hello" , "world"]) ["HELLO","WORLD"]),
-          test "reverse Accumulate" (assertEqual (accumulate String.reverse ["hello" , "world"]) ["olleh","dlrow"])
+        [ test "[]] Accumulate" (assertEqual [] (accumulate square [])),
+          test "square Accumulate" (assertEqual [1,4,9] (accumulate square [1,2,3])),
+          test "toUpper Accumulate" (assertEqual ["HELLO","WORLD"] (accumulate String.toUpper ["hello" , "world"])),
+          test "reverse Accumulate" (assertEqual ["olleh","dlrow"] (accumulate String.reverse ["hello" , "world"]))
         ]
-        
+
 main = runDisplay tests

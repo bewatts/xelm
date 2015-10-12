@@ -10,11 +10,11 @@ import ElmTest.Runner.Element exposing (runDisplay)
 
 tests : Test
 tests = suite "RNATranscription Test Suite"
-        [ test "transcribes cytosine to guanine" (assertEqual (toRNA "C") "G"),
-          test "transcribes guanine to cytosine" (assertEqual  (toRNA "G") "C"),
-          test "transcribes adenine to uracil" (assertEqual  (toRNA "A") "U"),
-          test "transcribes thymine to adenine" (assertEqual  (toRNA "T") "A"),
-          test "transcribes all ACGT to UGCA" (assertEqual  (toRNA "ACGTGGTCTTAA") "UGCACCAGAAUU")
+        [ test "transcribes cytosine to guanine" (assertEqual "G" (toRNA "C")),
+          test "transcribes guanine to cytosine" (assertEqual "C" (toRNA "G")),
+          test "transcribes adenine to uracil" (assertEqual "U" (toRNA "A")),
+          test "transcribes thymine to adenine" (assertEqual "A" (toRNA "T")),
+          test "transcribes all ACGT to UGCA" (assertEqual "UGCACCAGAAUU" (toRNA "ACGTGGTCTTAA"))
         ]
 
 main = runDisplay tests
