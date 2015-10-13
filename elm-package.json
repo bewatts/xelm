@@ -11,7 +11,8 @@
         "Bob",
         "SumOfMultiples",
         "Strain",
-        "PointMutations"
+        "PointMutations",
+        "SpaceAge"
     ],
     "exposed-modules": [],
     "dependencies": {
