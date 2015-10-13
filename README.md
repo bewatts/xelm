@@ -20,7 +20,9 @@ Please see the [contributing guide](https://github.com/exercism/x-api/blob/maste
 When adding another problem set, make sure to add the folder name to both `elm-package.json` and `config.json`.
 
 ### TODO
-- [ ] Put expected vs. actual results in correct order in Accumulate, Leap, and RNA tests
+- [x] Put expected vs. actual results in correct order in Accumulate, Leap, and RNA tests
+- [ ] Add all tests and examples
+- [ ] Get running on Travis
 
 ## License
 
