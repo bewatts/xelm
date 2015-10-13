@@ -12,7 +12,8 @@
         "SumOfMultiples",
         "Strain",
         "PointMutations",
-        "SpaceAge"
+        "SpaceAge",
+        "Anagram"
     ],
     "exposed-modules": [],
     "dependencies": {
