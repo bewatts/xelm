@@ -10,7 +10,8 @@
         "Sublist",
         "Bob",
         "SumOfMultiples",
-        "Strain"
+        "Strain",
+        "PointMutations"
     ],
     "exposed-modules": [],
     "dependencies": {
