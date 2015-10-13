@@ -13,7 +13,8 @@
         "Strain",
         "PointMutations",
         "SpaceAge",
-        "Anagram"
+        "Anagram",
+        "NucleotideCount"
     ],
     "exposed-modules": [],
     "dependencies": {
