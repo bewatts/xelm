@@ -8,7 +8,8 @@
         "Accumulate",
         "RNATranscription",
         "Sublist",
-        "Bob"
+        "Bob",
+        "sumOfMultiples"
     ],
     "exposed-modules": [],
     "dependencies": {
