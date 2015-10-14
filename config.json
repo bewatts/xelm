@@ -7,7 +7,17 @@
   "problems": [
     "Leap",
     "Accumulate",
-    "RNATranscription"
+    "RNATranscription",
+    "Sublist",
+    "Bob",
+    "SumOfMultiples",
+    "Strain",
+    "PointMutations",
+    "SpaceAge",
+    "Anagram",
+    "NucleotideCount",
+    "PhoneNumber",
+    "GradeSchool"
   ],
   "ignored": [
     "elm-stuff",
