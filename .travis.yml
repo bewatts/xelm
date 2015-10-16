@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "4.0"
 install:
-- npm install --global elm
+- npm install elm
 - node -v
 - curl  https://raw.githubusercontent.com/avh4/elm-spec/master/elm-io.sh > elm-io.sh
 - npm install jsdom
