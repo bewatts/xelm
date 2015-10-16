@@ -1,8 +1,9 @@
-language: ruby
-rvm:
-  - 2.0.0
+language: node_js
+node_js:
+  - "4.0"
 install:
 - npm install --global elm
+- node -v
 - curl  https://raw.githubusercontent.com/avh4/elm-spec/master/elm-io.sh > elm-io.sh
 - npm install jsdom
 - elm-package install -y
