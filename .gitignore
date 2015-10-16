@@ -5,3 +5,7 @@ bin/configlet.exe
 CHECKLIST
 elm-stuff
 elm.js
+elm-io.sh
+node_modules/
+raw-test.js
+test.js

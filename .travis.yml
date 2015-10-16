@@ -3,7 +3,7 @@ rvm:
   - 2.0.0
 install:
 - npm install --global elm
-- curl https://raw.githubusercontent.com/maxsnew/IO/master/elm-io.sh > elm-io.sh
+- curl  https://raw.githubusercontent.com/avh4/elm-spec/master/elm-io.sh > elm-io.sh
 - npm install jsdom
 - elm-package install -y
 before_script:
