@@ -2,6 +2,17 @@
 
 Exercism problems in Elm.
 
+## Contributing
+
+Here are some ideas for people wanting to write tests: 
+
+1. Look to the haskell language track, see what tests haven't been implemented, and are appropriate for elm - 
+2. Consider the elm-lang docs - what elm-specific information hasn't been included in our tests so far. 
+
+If you want to be more generally helpful: 
+1. Get it running successfully on Travis, that is worth 100 points. 
+
+
 ## Setup
 
 1. Install the most recent version of Elm.
