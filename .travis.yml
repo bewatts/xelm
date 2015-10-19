@@ -4,7 +4,6 @@ node_js:
 install:
 - npm install elm
 - npm install elm-test
-- node -v
 - elm-package install -y
 script:
 - bin/fetch-configlet
