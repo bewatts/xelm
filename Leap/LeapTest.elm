@@ -17,4 +17,4 @@ tests = suite "Leap Test Suite"
           test "Yes, 2400 is a leap year" (assert (isLeap 2400))
         ]
 
-main = runDisplay tests
+-- main = runDisplay tests

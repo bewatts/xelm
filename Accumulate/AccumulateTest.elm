@@ -20,4 +20,4 @@ tests = suite "Accumulate"
           test "reverse Accumulate" (assertEqual ["olleh","dlrow"] (accumulate String.reverse ["hello" , "world"]))
         ]
 
-main = runDisplay tests
+-- main = runDisplay tests

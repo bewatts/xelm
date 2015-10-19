@@ -17,4 +17,4 @@ tests = suite "RNATranscription Test Suite"
           test "transcribes all ACGT to UGCA" (assertEqual "UGCACCAGAAUU" (toRNA "ACGTGGTCTTAA"))
         ]
 
-main = runDisplay tests
+-- main = runDisplay tests
