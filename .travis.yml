@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "4.0"
 install:
-- npm install elm
+- npm install elm@0.15.1-beta5
 - npm install elm-test
 - elm-package install -y
 script:
