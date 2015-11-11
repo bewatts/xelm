@@ -3,7 +3,7 @@ node_js:
   - "4.0"
 install:
 - npm install elm@0.15.1-beta5
-- npm install elm-test
+- npm install elm-test@0.6.4
 - elm-package install -y
 script:
 - bin/fetch-configlet
