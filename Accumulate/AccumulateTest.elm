@@ -1,13 +1,12 @@
 module AccumulateTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
-import AccumulateExample exposing (accumulate)
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
 import String
+
+-- import AccumulateExample exposing (accumulate) -- CI_ENABLE
+import Accumulate exposing (accumulate) -- CI_DISABLE
 
 square : Int -> Int
 square x = x * x
@@ -20,4 +19,4 @@ tests = suite "Accumulate"
           test "reverse Accumulate" (assertEqual ["olleh","dlrow"] (accumulate String.reverse ["hello" , "world"]))
         ]
 
--- main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

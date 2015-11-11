@@ -1,12 +1,11 @@
 module SublistTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
 
-import SublistExample exposing (sublist)
+-- import SublistExample exposing (sublist) -- CI_ENABLE
+import Sublist exposing (sublist) -- CI_DISABLE
 
 tests : Test
 tests = suite "Sublist Test Suite"
@@ -30,4 +29,4 @@ tests = suite "Sublist Test Suite"
     test "recurring values unequal" (assertEqual "Unequal" (sublist [1,2,1,2,3] [1,2,3,1,2,3,2,3,2,1]))
   ]
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

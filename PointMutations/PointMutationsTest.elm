@@ -1,12 +1,11 @@
 module PointMutationsTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
 
-import PointMutationsExample exposing (hammingDistance)
+-- import PointMutationsExample exposing (hammingDistance) -- CI_ENABLE
+import PointMutations exposing (hammingDistance) -- CI_DISABLE
 
 import String
 
@@ -21,4 +20,4 @@ tests = suite "PointMutations Test Suite"
   ]
 
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

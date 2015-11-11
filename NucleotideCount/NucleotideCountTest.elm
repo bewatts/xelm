@@ -1,12 +1,11 @@
 module NucleotideCountTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
-import NucleotideCountExample exposing (nucleotideCounts)
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
+
+-- import NucleotideCountExample exposing (nucleotideCounts) -- CI_ENABLE
+import NucleotideCount exposing (nucleotideCounts) -- CI_DISABLE
 
 tests : Test
 tests = suite "NucleotideCount test suite"
@@ -19,4 +18,4 @@ tests = suite "NucleotideCount test suite"
                       (nucleotideCounts "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"))
       ]
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

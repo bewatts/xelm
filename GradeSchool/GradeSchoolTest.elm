@@ -6,13 +6,14 @@ module GradeSchoolTest where
 --   newSchool, gradeWithStudents, schoolFromList,
 --   studentsInGrade, schoolToList)
 
-import GradeSchoolExample as S exposing (..)
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
 
 import Dict
+
+-- import GradeSchoolExample as S exposing (..) -- CI_ENABLE
+import GradeSchool as S exposing (..) -- CI_DISABLE
 
 tests : Test
 tests = suite "GradeSchool Test Suite"
@@ -28,4 +29,4 @@ tests = suite "GradeSchool Test Suite"
         test "get students in a non-existent grade" (assertEqual [] (S.studentsInGrade 1 S.newSchool))
         ]
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

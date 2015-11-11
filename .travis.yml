@@ -8,4 +8,4 @@ install:
 script:
 - bin/fetch-configlet
 - bin/configlet .
-- node_modules/.bin/elm-test TestRunner.elm
+- bin/ci-run-tests.sh
