@@ -1,12 +1,11 @@
 module PhoneNumberTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
-import PhoneNumberExample exposing (getNumber, printPretty)
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
+
+-- import PhoneNumberExample exposing (getNumber, printPretty) -- CI_ENABLE
+import PhoneNumber exposing (getNumber, printPretty) -- CI_DISABLE
 
 tests : Test
 tests = suite "PhoneNumber test suite"
@@ -25,4 +24,4 @@ tests = suite "PhoneNumber test suite"
         test "pretty print with full us phone number" (assertEqual "(123) 456-7890" (printPretty "11234567890"))
       ]
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

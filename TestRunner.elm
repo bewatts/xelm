@@ -8,12 +8,32 @@ import ElmTest.Test exposing (..)
 import LeapTest
 import AccumulateTest
 import RNATranscriptionTest
+import SublistTest
+import BobTest
+import SumOfMultiplesTest
+import StrainTest
+import PointMutationsTest
+import SpaceAgeTest
+import AnagramTest
+import NucleotideCountTest
+import PhoneNumberTest
+import GradeSchoolTest
 
 tests : Test
 tests = suite "ExercismTests"
         [ LeapTest.tests
-        , RNATranscriptionTest.tests
         , AccumulateTest.tests
+        , RNATranscriptionTest.tests
+        , SublistTest.tests
+        , BobTest.tests
+        , SumOfMultiplesTest.tests
+        , StrainTest.tests
+        , PointMutationsTest.tests
+        , SpaceAgeTest.tests
+        , AnagramTest.tests
+        , NucleotideCountTest.tests
+        , PhoneNumberTest.tests
+        , GradeSchoolTest.tests
         ]
 
 port requests : Signal Request

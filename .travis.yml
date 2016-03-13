@@ -2,15 +2,10 @@ language: node_js
 node_js:
   - "4.0"
 install:
-- npm install elm
-- node -v
-- curl  https://raw.githubusercontent.com/avh4/elm-spec/master/elm-io.sh > elm-io.sh
-- npm install jsdom
+- npm install elm@0.15.1-beta5
+- npm install elm-test@0.6.4
 - elm-package install -y
-before_script:
-- elm-make --yes --output raw-test.js TestRunner.elm
-- bash elm-io.sh raw-test.js test.js
 script:
 - bin/fetch-configlet
 - bin/configlet .
-- node test.js
+- bin/ci-run-tests.sh

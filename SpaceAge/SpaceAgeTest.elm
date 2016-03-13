@@ -1,12 +1,11 @@
 module SpaceAgeTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
 
-import SpaceAgeExample exposing (Planet(..), ageOn)
+-- import SpaceAgeExample exposing (Planet(..), ageOn) -- CI_ENABLE
+import SpaceAgeExample exposing (Planet(..), ageOn) -- CI_DISABLE
 
 tests : Test
 tests = suite "SpaceAge Test Suite"
@@ -22,4 +21,4 @@ tests = suite "SpaceAge Test Suite"
   ]
 
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

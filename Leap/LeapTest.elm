@@ -1,12 +1,11 @@
 module LeapTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
-import LeapExample exposing (isLeap)
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
+
+-- import LeapExample exposing (isLeap) -- CI_ENABLE
+import Leap exposing (isLeap) -- CI_DISABLE
 
 tests : Test
 tests = suite "Leap Test Suite"
@@ -17,4 +16,4 @@ tests = suite "Leap Test Suite"
           test "Yes, 2400 is a leap year" (assert (isLeap 2400))
         ]
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

@@ -1,12 +1,11 @@
 module AnagramTest where
 
--- TODO - remove example inclusion once Problem sets are ready to go live or CI is set up.
-
-import AnagramExample exposing (anagramsFor)
-
 import ElmTest.Test exposing (test, Test, suite)
 import ElmTest.Assertion exposing (assert, assertEqual)
 import ElmTest.Runner.Element exposing (runDisplay)
+
+-- import AnagramExample exposing (anagramsFor) -- CI_ENABLE
+import Anagram exposing (anagramsFor) -- CI_DISABLE
 
 tests : Test
 tests = suite "Anagram test suite"
@@ -25,4 +24,4 @@ tests = suite "Anagram test suite"
         test "does not detect a word as its own anagram (case insensitive)" (assertEqual  [] (anagramsFor "Banana" ["baNana"]))
         ]
 
-main = runDisplay tests
+main = runDisplay tests -- CI_DISABLE

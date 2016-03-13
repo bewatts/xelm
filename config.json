@@ -20,12 +20,12 @@
     "GradeSchool"
   ],
   "ignored": [
+    "bin",
     "elm-stuff",
-    "bin"
+    "node_modules"
   ],
   "deprecated": [
   ],
   "foregone": [
-  ],
-  "node_modules": []
+  ]
 }
